@@ -17,7 +17,7 @@ public class T015verifyFilterByNameSearchesComputersByComputerNameTest extends B
 
 		String sonyComputer = "Sony";
 		String companyName = "Apple Inc.";
-		String date = "Apple Inc.";
+		String date = "01 Jan 1960";
 
 		MainComputerPage mainComputerPage = new MainComputerPage(this.driver);
 
