@@ -1,0 +1,19 @@
+This test suite is based on Java and Selenium with tests-script for testing https://computer-database.gatling.io website.
+
+I have decided to use page object model to organize this test suit. For building tool I have chosen Maven.
+
+Project structure:
+pageObject package :
+AddEditComputerPage - I have written all xpath/ids and methods for the Add and Edit page
+MainComputerPage - all xpath and methods for the Main page
+
+In the BaseTest class I have 2 methods that have executed before and after each test runs, the first is BeforeTest setup of ChromeDriver and the second is AfterTest that use driver.quit method to close browser.
+
+Because I use POM model, to hide the implementation so the framework will not be linear, I have written All Selenium methods inside methods in classes.
+
+I have use variables for xpath/ids because if the developer will change HTML/CSS code, we can easily change them and maintain tests.
+Also I have used %s for xpath to prevent duplicated code, and it is easier to change this kind of xpath or variable.
+
+Test package :
+Contains of 18 test grouped by product functionality.
+Each test have Test in the name of the class and javadoc to describe the test.
