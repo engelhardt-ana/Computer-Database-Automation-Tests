@@ -4,17 +4,17 @@ import com.pageObjects.BaseTest;
 import com.pageObjects.MainComputerPage;
 
 /**
- * This test verifies the default sorting is ascending by Company name, click on
+ * This test verifies the default sorting is ascending by Computer name, click on
  * Column Name to sort descending, verifies the values are sorted descending,
- * click on Company Name to sort ascending and verifies company name`s are
+ * click on Computer Name to sort ascending and verifies computer name`s are
  * sorting ascending
  *
  * @author aengelhardt
  */
-public class T017verifyCompanyNameSortingColumnTest extends BaseTest {
+public class T017verifyComputerNameSortingColumnTest extends BaseTest {
 
 	@Test
-	public void T017verifyCompanyNameSortingColumn() {
+	public void T017verifyComputerNameSortingColumn() {
 
 		MainComputerPage mainComputerPage = new MainComputerPage(this.driver);
 
