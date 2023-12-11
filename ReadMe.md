@@ -32,5 +32,3 @@ This test suite is designed to automate the testing of various functionalities o
 ## Contributing
 Contributions to enhance or extend the test suite are welcome. Please fork the repository and submit pull requests with your proposed changes.
 
-## License
-[Specify your project's license]
